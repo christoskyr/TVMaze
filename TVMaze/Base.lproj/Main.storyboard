@@ -42,7 +42,7 @@
                                 <rect key="frame" x="0.0" y="120" width="414" height="616"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="zhN-PO-aeh" customClass="TableViewCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="zhN-PO-aeh" customClass="CustomTableViewCell">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zhN-PO-aeh" id="qNQ-vZ-MJr">
@@ -61,7 +61,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFN-pE-Qcg">
-                                                    <rect key="frame" x="131" y="69" width="283" height="21"/>
+                                                    <rect key="frame" x="131" y="69" width="263" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXc-eV-gJC">
+                                                    <rect key="frame" x="131" y="49" width="263" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -73,6 +80,7 @@
                                             <outlet property="image" destination="MvD-eg-lbh" id="qD6-um-4v9"/>
                                             <outlet property="summaryLabel" destination="FFN-pE-Qcg" id="TLV-b5-UmW"/>
                                             <outlet property="titleLabel" destination="QrB-8b-XlF" id="zG2-KQ-yEX"/>
+                                            <outlet property="typeLabel" destination="wXc-eV-gJC" id="3ob-EJ-b4i"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -118,6 +126,7 @@
                     <connections>
                         <outlet property="searchBar" destination="FiZ-0n-ksx" id="y5d-rp-0Ua"/>
                         <outlet property="tableOfShows" destination="ZOq-Sk-s8G" id="JCo-XR-rTQ"/>
+                        <outlet property="topTableViewConstraint" destination="XAc-NV-daz" id="zU3-sb-ud4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWb-IF-DgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -1,14 +1,14 @@
 //
-//  TableViewCell.m
+//  AFSECustomTvSeriesTableViewCell.m
 //  TVMaze
 //
-//  Created by admin on 16/04/2018.
-//  Copyright © 2018 admin. All rights reserved.
+//  Created by admin on 24/04/2018.
+//  Copyright © 2018 Advantage FSE. All rights reserved.
 //
 
-#import "TableViewCell.h"
+#import "AFSECustomTvSeriesTableViewCell.h"
 
-@implementation TableViewCell
+@implementation AFSECustomTvSeriesTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

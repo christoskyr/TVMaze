@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841E194C2088D5590083AFD3 /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E194B2088D5590083AFD3 /* NSString_stripHtml.m */; };
-		841E479E2084FAD800944375 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E479D2084FAD800944375 /* TableViewCell.m */; };
-		844A6F912083D63D000ECC8E /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F902083D63D000ECC8E /* SearchVC.m */; };
+		8401852A2097550C002B7475 /* AFSENetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 840185292097550C002B7475 /* AFSENetworking.m */; };
+		8401852D20975DB3002B7475 /* AFSEGenreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401852C20975DB3002B7475 /* AFSEGenreModel.m */; };
+		84066945208F64C5008451A6 /* AFSECustomMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84066943208F64C5008451A6 /* AFSECustomMovieTableViewCell.m */; };
+		84066946208F64C5008451A6 /* AFSECustomMovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84066944208F64C5008451A6 /* AFSECustomMovieTableViewCell.xib */; };
+		8406694A208F776A008451A6 /* movie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84066947208F776A008451A6 /* movie.jpg */; };
+		8406694B208F776A008451A6 /* movieDB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84066948208F776A008451A6 /* movieDB.jpg */; };
+		8406694C208F776A008451A6 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 84066949208F776A008451A6 /* tv.png */; };
+		84066950208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406694E208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.m */; };
+		84066951208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8406694F208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.xib */; };
+		84066953208F894C008451A6 /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84066952208F894C008451A6 /* SearchVC.m */; };
+		841E479E2084FAD800944375 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E479D2084FAD800944375 /* CustomTableViewCell.m */; };
+		842A6F9D209CA6CA00255CEA /* AFSENetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A6F9C209CA6CA00255CEA /* AFSENetworkManager.m */; };
 		844A6F942083D6C2000ECC8E /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F932083D6C2000ECC8E /* DetailsVC.m */; };
+		847C59D0209BB459003807EC /* AFSEGroupOfShows.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C59CE209BB459003807EC /* AFSEGroupOfShows.m */; };
+		847F04B3208E4A6700CA7C1A /* NSString_stripHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F04B2208E4A6700CA7C1A /* NSString_stripHtml.m */; };
 		84B3CF66208A32090098CB5F /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3CF60208A32090098CB5F /* Show.m */; };
 		84B3CF67208A32090098CB5F /* TvSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3CF62208A32090098CB5F /* TvSeries.m */; };
 		84B3CF68208A32090098CB5F /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3CF65208A32090098CB5F /* Movie.m */; };
@@ -43,14 +54,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		841E194A2088D5590083AFD3 /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_stripHtml.h; path = ../../../../../Downloads/NSString_stripHtml.h; sourceTree = "<group>"; };
-		841E194B2088D5590083AFD3 /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_stripHtml.m; path = ../../../../../Downloads/NSString_stripHtml.m; sourceTree = "<group>"; };
-		841E479C2084FAD800944375 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		841E479D2084FAD800944375 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		237504212EC30DF95E6A98F4 /* Pods-TVMaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVMaze/Pods-TVMaze.debug.xcconfig"; sourceTree = "<group>"; };
+		840185282097550C002B7475 /* AFSENetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSENetworking.h; sourceTree = "<group>"; };
+		840185292097550C002B7475 /* AFSENetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSENetworking.m; sourceTree = "<group>"; };
+		8401852B20975DB3002B7475 /* AFSEGenreModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSEGenreModel.h; sourceTree = "<group>"; };
+		8401852C20975DB3002B7475 /* AFSEGenreModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSEGenreModel.m; sourceTree = "<group>"; };
+		8403D44B20A1DC66004D84F5 /* AFSENetworkManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSENetworkManagerDelegate.h; sourceTree = "<group>"; };
+		84066942208F64C5008451A6 /* AFSECustomMovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSECustomMovieTableViewCell.h; sourceTree = "<group>"; };
+		84066943208F64C5008451A6 /* AFSECustomMovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSECustomMovieTableViewCell.m; sourceTree = "<group>"; };
+		84066944208F64C5008451A6 /* AFSECustomMovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFSECustomMovieTableViewCell.xib; sourceTree = "<group>"; };
+		84066947208F776A008451A6 /* movie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie.jpg; sourceTree = "<group>"; };
+		84066948208F776A008451A6 /* movieDB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movieDB.jpg; sourceTree = "<group>"; };
+		84066949208F776A008451A6 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		8406694D208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSECustomTvSeriesTableViewCell.h; sourceTree = "<group>"; };
+		8406694E208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSECustomTvSeriesTableViewCell.m; sourceTree = "<group>"; };
+		8406694F208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFSECustomTvSeriesTableViewCell.xib; sourceTree = "<group>"; };
+		84066952208F894C008451A6 /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
+		841E479C2084FAD800944375 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		841E479D2084FAD800944375 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		842A6F9B209CA6CA00255CEA /* AFSENetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSENetworkManager.h; sourceTree = "<group>"; };
+		842A6F9C209CA6CA00255CEA /* AFSENetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSENetworkManager.m; sourceTree = "<group>"; };
 		844A6F8F2083D63D000ECC8E /* SearchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
-		844A6F902083D63D000ECC8E /* SearchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
 		844A6F922083D6C2000ECC8E /* DetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
 		844A6F932083D6C2000ECC8E /* DetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
+		847C59CE209BB459003807EC /* AFSEGroupOfShows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSEGroupOfShows.m; path = TVMaze/Models/AFSEGroupOfShows.m; sourceTree = SOURCE_ROOT; };
+		847C59CF209BB459003807EC /* AFSEGroupOfShows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSEGroupOfShows.h; path = TVMaze/Models/AFSEGroupOfShows.h; sourceTree = SOURCE_ROOT; };
+		847F04B1208E4A6700CA7C1A /* NSString_stripHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_stripHtml.h; sourceTree = "<group>"; };
+		847F04B2208E4A6700CA7C1A /* NSString_stripHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_stripHtml.m; sourceTree = "<group>"; };
 		84B3CF60208A32090098CB5F /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
 		84B3CF61208A32090098CB5F /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		84B3CF62208A32090098CB5F /* TvSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvSeries.m; sourceTree = "<group>"; };
@@ -75,6 +105,11 @@
 		84E92FCE2087E91C00923956 /* PickShowTypeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickShowTypeVC.m; sourceTree = "<group>"; };
 		84F1CD02208615B600CBB214 /* NSArray+RandomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomObject.h"; sourceTree = "<group>"; };
 		84F1CD03208615B600CBB214 /* NSArray+RandomObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomObject.m"; sourceTree = "<group>"; };
+		89540801342725E88951696E /* Pods-TVMazeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMazeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVMazeUITests/Pods-TVMazeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A938C755EB8CF2174FB98EC /* Pods-TVMazeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMazeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVMazeTests/Pods-TVMazeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBF86BFAF55E5069289C7D8 /* Pods-TVMazeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMazeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVMazeUITests/Pods-TVMazeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B47B49006C252A8DC85185B8 /* Pods-TVMazeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMazeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVMazeTests/Pods-TVMazeTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD2D8933287F2ACE9045AC60 /* Pods-TVMaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVMaze/Pods-TVMaze.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +137,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4BBCEE3D6A793CFAEC22A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		841E479B2084B87D00944375 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				844A6F922083D6C2000ECC8E /* DetailsVC.h */,
 				844A6F932083D6C2000ECC8E /* DetailsVC.m */,
 				844A6F8F2083D63D000ECC8E /* SearchVC.h */,
-				844A6F902083D63D000ECC8E /* SearchVC.m */,
+				84066952208F894C008451A6 /* SearchVC.m */,
 				84E92FCD2087E91C00923956 /* PickShowTypeVC.h */,
 				84E92FCE2087E91C00923956 /* PickShowTypeVC.m */,
 			);
@@ -124,6 +166,10 @@
 				84B3CF64208A32090098CB5F /* TvSeries.h */,
 				84B3CF61208A32090098CB5F /* Movie.h */,
 				84B3CF65208A32090098CB5F /* Movie.m */,
+				8401852B20975DB3002B7475 /* AFSEGenreModel.h */,
+				8401852C20975DB3002B7475 /* AFSEGenreModel.m */,
+				847C59CF209BB459003807EC /* AFSEGroupOfShows.h */,
+				847C59CE209BB459003807EC /* AFSEGroupOfShows.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +177,9 @@
 		84B3CF69208A32280098CB5F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84066947208F776A008451A6 /* movie.jpg */,
+				84066948208F776A008451A6 /* movieDB.jpg */,
+				84066949208F776A008451A6 /* tv.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -142,6 +191,8 @@
 				84CB2C07207642910025C9BA /* TVMazeTests */,
 				84CB2C12207642910025C9BA /* TVMazeUITests */,
 				84CB2BED2076428E0025C9BA /* Products */,
+				BAAC50B7F04F87F1A2B8C6A8 /* Pods */,
+				4F4BBCEE3D6A793CFAEC22A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,17 +211,28 @@
 			children = (
 				84CB2BEF2076428E0025C9BA /* AppDelegate.h */,
 				84CB2BF02076428F0025C9BA /* AppDelegate.m */,
-				841E479C2084FAD800944375 /* TableViewCell.h */,
-				841E479D2084FAD800944375 /* TableViewCell.m */,
-				841E194A2088D5590083AFD3 /* NSString_stripHtml.h */,
-				841E194B2088D5590083AFD3 /* NSString_stripHtml.m */,
+				841E479C2084FAD800944375 /* CustomTableViewCell.h */,
+				841E479D2084FAD800944375 /* CustomTableViewCell.m */,
 				84F1CD02208615B600CBB214 /* NSArray+RandomObject.h */,
 				84F1CD03208615B600CBB214 /* NSArray+RandomObject.m */,
+				847F04B1208E4A6700CA7C1A /* NSString_stripHtml.h */,
+				847F04B2208E4A6700CA7C1A /* NSString_stripHtml.m */,
+				840185282097550C002B7475 /* AFSENetworking.h */,
+				840185292097550C002B7475 /* AFSENetworking.m */,
+				842A6F9B209CA6CA00255CEA /* AFSENetworkManager.h */,
+				842A6F9C209CA6CA00255CEA /* AFSENetworkManager.m */,
+				8403D44B20A1DC66004D84F5 /* AFSENetworkManagerDelegate.h */,
 				84B3CF5F208A32090098CB5F /* Models */,
 				84B3CF69208A32280098CB5F /* Resources */,
 				841E479B2084B87D00944375 /* ViewControllers */,
 				84CB2BF8207642910025C9BA /* Assets.xcassets */,
 				84CB2BF52076428F0025C9BA /* Main.storyboard */,
+				84066942208F64C5008451A6 /* AFSECustomMovieTableViewCell.h */,
+				84066943208F64C5008451A6 /* AFSECustomMovieTableViewCell.m */,
+				84066944208F64C5008451A6 /* AFSECustomMovieTableViewCell.xib */,
+				8406694D208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.h */,
+				8406694E208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.m */,
+				8406694F208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.xib */,
 				84CB2BFA207642910025C9BA /* LaunchScreen.storyboard */,
 				84CB2BFD207642910025C9BA /* Info.plist */,
 				84CB2BFE207642910025C9BA /* main.m */,
@@ -194,6 +256,19 @@
 				84CB2C15207642910025C9BA /* Info.plist */,
 			);
 			path = TVMazeUITests;
+			sourceTree = "<group>";
+		};
+		BAAC50B7F04F87F1A2B8C6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				237504212EC30DF95E6A98F4 /* Pods-TVMaze.debug.xcconfig */,
+				FD2D8933287F2ACE9045AC60 /* Pods-TVMaze.release.xcconfig */,
+				8A938C755EB8CF2174FB98EC /* Pods-TVMazeTests.debug.xcconfig */,
+				B47B49006C252A8DC85185B8 /* Pods-TVMazeTests.release.xcconfig */,
+				89540801342725E88951696E /* Pods-TVMazeUITests.debug.xcconfig */,
+				ACBF86BFAF55E5069289C7D8 /* Pods-TVMazeUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CB2C1B207642910025C9BA /* Build configuration list for PBXNativeTarget "TVMazeTests" */;
 			buildPhases = (
+				8AF09E909D2C877B3F32A8F4 /* [CP] Check Pods Manifest.lock */,
 				84CB2C00207642910025C9BA /* Sources */,
 				84CB2C01207642910025C9BA /* Frameworks */,
 				84CB2C02207642910025C9BA /* Resources */,
@@ -238,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CB2C1E207642910025C9BA /* Build configuration list for PBXNativeTarget "TVMazeUITests" */;
 			buildPhases = (
+				C1950DA22D2BAF25F3316CE0 /* [CP] Check Pods Manifest.lock */,
 				84CB2C0B207642910025C9BA /* Sources */,
 				84CB2C0C207642910025C9BA /* Frameworks */,
 				84CB2C0D207642910025C9BA /* Resources */,
@@ -300,8 +377,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8406694B208F776A008451A6 /* movieDB.jpg in Resources */,
 				84CB2BFC207642910025C9BA /* LaunchScreen.storyboard in Resources */,
+				8406694A208F776A008451A6 /* movie.jpg in Resources */,
+				84066946208F64C5008451A6 /* AFSECustomMovieTableViewCell.xib in Resources */,
+				8406694C208F776A008451A6 /* tv.png in Resources */,
 				84CB2BF9207642910025C9BA /* Assets.xcassets in Resources */,
+				84066951208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.xib in Resources */,
 				84CB2BF72076428F0025C9BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,22 +404,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AF09E909D2C877B3F32A8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVMazeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1950DA22D2BAF25F3316CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVMazeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84CB2BE82076428E0025C9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84B3CF68208A32090098CB5F /* Movie.m in Sources */,
+				84066945208F64C5008451A6 /* AFSECustomMovieTableViewCell.m in Sources */,
+				847C59D0209BB459003807EC /* AFSEGroupOfShows.m in Sources */,
 				84CB2BFF207642910025C9BA /* main.m in Sources */,
 				84B3CF66208A32090098CB5F /* Show.m in Sources */,
 				84E92FCF2087E91C00923956 /* PickShowTypeVC.m in Sources */,
+				8401852D20975DB3002B7475 /* AFSEGenreModel.m in Sources */,
 				844A6F942083D6C2000ECC8E /* DetailsVC.m in Sources */,
-				841E479E2084FAD800944375 /* TableViewCell.m in Sources */,
+				8401852A2097550C002B7475 /* AFSENetworking.m in Sources */,
+				842A6F9D209CA6CA00255CEA /* AFSENetworkManager.m in Sources */,
+				841E479E2084FAD800944375 /* CustomTableViewCell.m in Sources */,
 				84F1CD04208615B600CBB214 /* NSArray+RandomObject.m in Sources */,
+				84066953208F894C008451A6 /* SearchVC.m in Sources */,
 				84B3CF67208A32090098CB5F /* TvSeries.m in Sources */,
 				84CB2BF12076428F0025C9BA /* AppDelegate.m in Sources */,
-				841E194C2088D5590083AFD3 /* NSString_stripHtml.m in Sources */,
-				844A6F912083D63D000ECC8E /* SearchVC.m in Sources */,
+				84066950208F7851008451A6 /* AFSECustomTvSeriesTableViewCell.m in Sources */,
+				847F04B3208E4A6700CA7C1A /* NSString_stripHtml.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,8 +631,10 @@
 		};
 		84CB2C19207642910025C9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237504212EC30DF95E6A98F4 /* Pods-TVMaze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7886G7Q823;
 				INFOPLIST_FILE = TVMaze/Info.plist;
@@ -521,8 +650,10 @@
 		};
 		84CB2C1A207642910025C9BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2D8933287F2ACE9045AC60 /* Pods-TVMaze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7886G7Q823;
 				INFOPLIST_FILE = TVMaze/Info.plist;
@@ -538,6 +669,7 @@
 		};
 		84CB2C1C207642910025C9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A938C755EB8CF2174FB98EC /* Pods-TVMazeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +689,7 @@
 		};
 		84CB2C1D207642910025C9BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47B49006C252A8DC85185B8 /* Pods-TVMazeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +709,7 @@
 		};
 		84CB2C1F207642910025C9BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89540801342725E88951696E /* Pods-TVMazeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7886G7Q823;
@@ -594,6 +728,7 @@
 		};
 		84CB2C20207642910025C9BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBF86BFAF55E5069289C7D8 /* Pods-TVMazeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7886G7Q823;

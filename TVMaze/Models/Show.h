@@ -14,9 +14,15 @@
 @property(strong, nonatomic) NSString * summary;
 @property(strong, nonatomic) NSString * image;
 @property(strong, nonatomic) NSString * averageRating;
+@property(strong, nonatomic) NSString * mediaType;
+@property(strong, nonatomic) NSNumber * ShowId;
+@property(strong, nonatomic) NSNumber * GenreId;
 
 - (instancetype) initWithTitle:(NSString *) title
                    Summary:(NSString *) summary
                    Image:(NSString *) image
-                   Rating: (NSString *) rating;
+                   Rating: (NSString *) rating
+                   Type:(NSString *) type
+                   ShowId:(NSNumber *) ShowId
+                 GenreId:(NSNumber *) GenreId;
 @end

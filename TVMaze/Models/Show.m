@@ -8,20 +8,34 @@
 
 #import "Show.h"
 
+#define IMAGE_URL @"https://image.tmdb.org/t/p/w500"
+
 @implementation Show
 
 - (instancetype) initWithTitle:(NSString *) title
                      Summary:(NSString *) summary
                      Image:(NSString *) image
-                     Rating: (NSString *) rating
+                     Rating:(NSString *) rating
+                     Type:(NSString *) type
+                    ShowId:(NSNumber *) ShowId
+                   GenreId:(NSNumber *) GenreId
 {
     self = [super init];
     
+    NSString *noSummaryAvailable = @"No Summary available";
+    NSString *noTitleAvailble = @"No Ttile available";
+    NSString *noRatingAvailable = @"No Rating available";
+    NSString *noImageURL = @"http://static.tvmaze.com/images/no-img/no-img-portrait-text.png";
+    NSString *noMediaTypeAvailable = @"No media type available";
+    
     if(self){
-        self.title = title;
-        self.summary = summary;
-        self.image = image;
-        self.averageRating = rating;
+        self.title = ([title isEqual:[NSNull null]] ? noTitleAvailble : title);
+        self.summary = ([summary isEqual:[NSNull null]] ? noSummaryAvailable : summary);
+        self.image = ([image isEqual:[NSNull null]] ? noImageURL : [IMAGE_URL stringByAppendingString:image]);
+        self.averageRating = [rating isEqual:@"0.0"] || [rating isEqual:[NSNull null]] ? noRatingAvailable : rating;
+        self.mediaType = ([type isEqual:[NSNull null]] ? noMediaTypeAvailable : type);
+        self.ShowId = ShowId;
+        self.GenreId = GenreId;
     }
     
     return self;

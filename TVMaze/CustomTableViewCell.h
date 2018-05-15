@@ -1,5 +1,5 @@
 //
-//  TableViewCell.h
+//  CustomTableViewCell.h
 //  TVMaze
 //
 //  Created by admin on 16/04/2018.
@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewCell : UITableViewCell
+@interface CustomTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
+@property (weak, nonatomic) IBOutlet UILabel *typeLabel;
 
 @end

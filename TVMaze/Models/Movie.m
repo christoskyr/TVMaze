@@ -16,7 +16,10 @@
     self = [super initWithTitle:self.title
                         Summary:movieSummary
                           Image:self.image
-                         Rating:self.averageRating];
+                         Rating:self.averageRating
+                           Type:self.mediaType
+                        ShowId:self.ShowId
+                        GenreId:self.GenreId];
     
     if(self){
         self.typeOfOscarNomination = typeOfOscarNomination;

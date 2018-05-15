@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PickShowTypeVC.h"
-#import "TableViewCell.h"
+#import "CustomTableViewCell.h"
 #import "Show.h"
 
 @interface SearchVC : UIViewController <PickShowTypeVCDelegate, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>

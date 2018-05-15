@@ -15,9 +15,12 @@
                            SeriesSummary:(NSString *)seriesSummary
 {
     self = [super initWithTitle:self.title
-                        Summary: seriesSummary
-                          Image:self.image
-                         Rating:self.averageRating];
+                         Summary: seriesSummary
+                           Image:self.image
+                          Rating:self.averageRating
+                            Type:self.mediaType
+                          ShowId:self.ShowId
+                        GenreId:self.GenreId];
     
     if(self){
         self.numberOfSeasons = numberOfSeasons;
